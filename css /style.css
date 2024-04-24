@@ -1,1 +1,52 @@
+html {
+    box-sizing: border-box
+}
 
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(107, 6, 107);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(205, 231, 102);
+}
+
+a:link {
+    color: rgb(230, 28, 142);
+}
+
+
+/* Odwiedzony link */
+
+a:visited {
+    color: rgb(49, 144, 227);
+}
+
+
+/* Link po najechaniu kursorem */
+
+a:hover {
+    color: rgb(5, 3, 75);
+}
+
+li {
+    text-align: center;
+}
+
+.p {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(241, 122, 241)
+}
